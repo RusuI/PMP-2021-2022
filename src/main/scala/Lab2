@@ -1,0 +1,22 @@
+import com.cra.figaro.language._
+import com.cra.figaro.library.compound.CPD
+import com.cra.figaro.algorithm.sampling._
+
+object Test {
+    def main(args: Array[String]) {
+         val probNevoie=Flip(0.5) 
+         val probReducere = Flip(0.5) 
+         val cumparare = CPD(probNevoie, probReducere,
+        (true, true) = Flip(1.0),
+        (true, false) = Flip(0.5),
+        (false, true) = Flip(0.8),
+        (false, false) = Flip(0.2))
+
+        cumparare.observe("true")
+    
+        val algorithm = Importance(1000, probNevoie)
+        algorithm.start()
+        println("Probabilitatea sa aiba nevoie urgenta: " + alg.probability(probNevoie,true))
+       
+    }
+}
