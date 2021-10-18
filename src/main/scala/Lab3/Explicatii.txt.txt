@@ -1,0 +1,19 @@
+Exercitiul 4:
+Practic trebuie sa calculam suma celor 3 fete de zar. Numarul maxim pentru care ar putea fi 11, este chiar 11 zaruri, fiind suma de cate 1 pe fiecare fata.
+
+
+Exercitiul 5:
+
+Pentru exercitiul 5, trebuie sa calculam probabilitatea ca valoarea unei fete sa fie 6, atunci cand suma celor 2 fete este mai mare decat 8.
+Practic, pentru a respecta conditia se vor lua valorile fetelor care sunt mai mari sau egale cu 4.
+
+
+Exercitiul 6:
+
+
+
+Exercitiul 7:
+
+
+Exercitiul 8:
+
